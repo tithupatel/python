@@ -1,0 +1,73 @@
+                Module 4: Advance Python Programming
+
+Que1: What is File function in python?What is keywords to create and write file.
+Ans:->A file is a container in computer storage devices user for storing data.
+      'r':read:Opens the file for reading.
+      'W':write:Opens the file for writing.If the file already exists,it truncates the file to zero length.
+
+Que13: Explain Exception handling?What is an Error in Python?
+Ans:->Exception handling:If you have some suspicious code that may raise a exception,you can defend
+      your program by placing the suspicious code in a try:block.After the try:block,include an except:statement,followed by a block of code which handles the problem in a programe due to
+    ->Error:Error are the problems in a program due to which the program will stop the execution
+
+Que14: How many except statements can a try-except block have?Name Some built-in exception classes.
+Ans:->At least one except statement is required.
+    ->Name of built-in exception classes: Arithmetic Error,Exception,Name Error Index Error,Attributes Error,etc....
+
+Que15: When will the else part of try-except-else be executed?
+Ans:->The else part is executed when no exception occurs.When Else was executed if any condition is not satisfied in program....
+
+Que16: can one block of except statemnets handle multiple exception?
+Ans:->Yes,a single block of except statements in python can handle multiple exceptions.
+      
+      Example:-
+          try:
+             X=10/0
+             y=int("abc")
+
+          except (ZeroDivisionError,ValueError)as e:print("An error occurred:",str(e))
+
+Que17: When is the finally block executed?
+Ans:->Finally block is always executed whether an exception is handled or not.Therefore,it contains all the necessary statements that need to be printed regardless of the exception occurs or not.
+
+Que18: What happens when,,1"==1 is executed?
+Ans:->It simply evaluates to False and dose not raise any exception.
+
+Que21: What are oops concepts?
+Ans:->An object-oriented paradigram is to design the program using classes and objects.The object is related to real-word entities such as book,house,pencil,etc.The oops concept focuses on writing the reusable code.It is a widespread technique to solve the problem by creating objects.
+
+    ->Python OOP Concepts:
+           1)Class
+           2)Object
+	   3)Encapsulation
+           4)Inheritance
+	   5)Polymorphism
+           6)Abstraction
+           7)Constraction
+Que26: What is instantiation in terms of OOP terminology?
+Ans:->In OOP,instantiation is the process of creating instances(objects)of a class,allowinng you to work with specific,individual entities based on the defined class structure.
+
+Que27:What is used to check whether an object o is an instanceof class A?
+Ans:->In Python,you can use the isinstance()function to check whether an object is an instance of aparticular class.
+    
+    ->The isinstance()function returns True if the object is an instance of the specified class or a tuple of classes,and False otherwise.
+
+    Example:--
+       class B:
+             pass
+
+       obj=B()
+       result=isinstance(obj,B)
+       print(result)
+
+Que28:What relationship is appropriate for Course and Faculty?
+Ans:->Association relationship
+
+Que29:What relationship is appropriate for Student and Person?
+Ans:->Inheritace relationship
+   
+            
+
+
+
+      
